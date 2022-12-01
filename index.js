@@ -111,7 +111,6 @@ async function run() {
       console.log('deleting is progress for', id);
       const result = await courseReviewCollection.deleteOne(query);
       res.send(result);
-      //   console.log(result);
     });
   } finally {
   }
