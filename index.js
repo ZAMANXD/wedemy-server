@@ -94,15 +94,6 @@ async function run() {
       res.send(result);
     });
 
-    //update specific review
-    // app.get('/reviews/:id'),
-    //   async (req, res) => {
-    //     const id = req.params.id;
-    //     const query = { _id: ObjectId(id) };
-    //     const review = await courseReviewCollection.findOne(query);
-    //     res.send(review);
-    //   };
-
     //delete specific review
     app.delete('/reviews/:id', async (req, res) => {
       const id = req.params.id;
