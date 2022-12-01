@@ -122,10 +122,6 @@ app.get('/', (req, res) => {
   res.send('Server Running Nonstop');
 });
 
-// app.get('/courses', (req, res) => {
-//   res.send(courses);
-// });
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
